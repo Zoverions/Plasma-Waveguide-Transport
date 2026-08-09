@@ -30,6 +30,10 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 The validation suite rejects inputs outside the declared whistler branch and checks finite, positive, subluminal group velocity over a sampled valid domain. See [`MIGRATION_REVIEW.md`](MIGRATION_REVIEW.md) for the hash-bound decision not to import weaker or unlicensed overlap code.
 
+## Security
+
+Report vulnerabilities privately through the repository's Security tab. Do not put unpatched vulnerabilities or live credentials in public issues. See the repository-level [`SECURITY.md`](../SECURITY.md) for the supported scope and reporting details.
+
 ## Repository Structure
 
 ```
