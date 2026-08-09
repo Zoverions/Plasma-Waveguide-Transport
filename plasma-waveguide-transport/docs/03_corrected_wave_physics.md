@@ -22,9 +22,11 @@ v_g \approx \frac{2 c \sqrt{\omega \omega_c}}{\omega_p}
 $$
 
 This velocity is:
-- Always **subluminal** (verified numerically)
-- Fully consistent with Maxwell + plasma theory
-- Experimentally verified since the 1950s
+- Finite, positive, and **subluminal across the validation suite's sampled declared domain**
+- Derived from the parallel cold-plasma model stated above
+- Related to literature-grounded whistler-mode propagation; this repository has not experimentally validated its implementation
+
+The sampled numerical check is not a proof across every plasma regime, propagation angle, temperature, collision model, or experimental apparatus.
 
 ### Why Earlier Artifacts Occurred
 

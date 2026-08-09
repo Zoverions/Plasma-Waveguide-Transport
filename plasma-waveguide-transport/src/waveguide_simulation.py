@@ -10,6 +10,8 @@ class WaveguideSimulation:
         :param B: Magnetic field (T)
         :param T_e: Electron temperature (K)
         """
+        plasma_frequencies(n_e, B)
+        thermal_pressure(n_e, T_e)
         self.n_e = n_e
         self.B = B
         self.T_e = T_e
